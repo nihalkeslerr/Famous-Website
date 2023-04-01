@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90% !important;
+}
+
+img.logoImg {
+    width: 200px;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 22px;
+    margin: 0px 20px;
+}
+
+.top {
+    background-image: url(../assests/MainImage.jpeg);
+    height: max-content;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-color {
+    height: max-content;
+    background-color: #00000080;
+}
+
+.contain{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mainWRT{
+    color: white;
+    width: 70%;
+    margin: 0px auto;
+    padding: 70px 0px;
+}
+
+.mainWRT p{
+    margin-left: 70px;
+    width: 80%;
+    margin-top: 40px;
+}
+
+.mainWRT button{
+    padding: 8px 40px ;
+    border: 3px solid #8785e9;
+    background: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+.mainWRT button:hover{
+    background-color: #8785e9;
+    transition: 0.5s;
+    border:  3px solid #6765e2;
+}
+
+.arts {
+    margin: 0 auto;
+    width: 96%;
+}
+
+.arts h1 {
+    margin-top: 30px;
+}
+
+.row.sectionArt {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.row.sectionArt div img {
+    width: 85%;
+    padding: 10px;
+    box-shadow: 1px 1px 6px #484464;
+    cursor: pointer;
+}
+.arts button{
+    padding: 8px 40px ;
+    border: 3px solid #f3a764;
+    background: none;
+    border-radius: 5px;
+    color: rgb(32, 32, 32);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+
+.arts button:hover{
+    background-color: #f3a764;
+    transition: 0.5s;
+    border: 3px solid #f09a4e;
+}
+.artBtn {
+    text-align: center;
+}
+
+.row.sectionArt div {
+    margin-bottom: 35px;
+
+}
+
+.artP {
+    background: #f3f3f3;
+    padding: 100px 0px;
+    margin: 60px 0;
+}
+.artP p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.row.sectionArtist {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 18px;
+    height: max-content;
+}
+.row.sectionArtist div img {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    height: 330px;
+}
+
+.row.sectionArtist2 {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    height: max-content;
+}
+.row.sectionArtist2 div img {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    height: 330px;
+}
+
+/*.artist1{
+    background-image: url(../assests/artist1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.artist2{
+    background-image: url(../assests/artist2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    }
+*/
+
+
