@@ -16,6 +16,10 @@ img.logoImg {
     font-size: 22px;
     margin: 0px 20px;
 }
+.top.contact{
+    background-image: url(../assests/contactImg.jpeg);
+    background-position: top;
+}
 
 .top {
     background-image: url(../assests/MainImage.jpeg);
@@ -150,6 +154,178 @@ img.logoImg {
     height: 330px;
 }
 
+.divtable {
+    margin: 0 auto;
+    width: 96%;
+}
+table.table {
+    width: 85%;
+    margin: 50px auto;
+}
+.moreInfo a {
+    color: black;
+    text-decoration: none;
+}
+.moreInfo a:hover {
+    text-decoration: underline;
+}
+table.table tr td {
+    height: 100px;
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.leftside {
+    border: 7px double #2c16b7;
+    display: inline-grid;
+    align-items: end;
+    width: 32.2%;
+    margin-left: 13px;
+}
+
+.col-md-4.leftside h2 {
+    color: #1b0b7f;
+    font-weight: bold;
+    /* border-bottom: 2px solid; */
+    text-align: center;
+
+    margin-top: 18px;
+}
+.leftside h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 9px;
+    font-style: italic;
+    
+}
+.col-md-4.leftside p {
+    color: gray;
+    text-align: justify;
+    font-size: 16px;
+    padding: 16px;
+}
+.gallery{
+    margin: 80px auto;
+
+
+}
+.gallery h1 {
+    width: 96%;
+    margin: 0 auto;
+}
+.next{
+    background: url(../assests/next.png);
+    position: absolute;
+    top: 1px;
+    /* right: 4px; */
+    display: block;
+    width: 52px;
+    background-repeat: no-repeat;
+    height: 51px;
+    transition: 0.5s;
+}
+.next:hover{
+    background: url(../assests/nexthover.png);
+    position: absolute;
+    top: 1px;
+    /* right: 4px; */
+    display: block;
+    width: 52px;
+    background-repeat: no-repeat;
+    height: 51px;
+    transition: 0.5s;
+}
+.prev{
+    background: url(../assests/prev.png);
+    position: absolute;
+    top: 1px;
+    /* right: 4px; */
+    display: block;
+    width: 52px;
+    background-repeat: no-repeat;
+    height: 51px;
+    transition: 0.5s;
+}
+.prev:hover{
+    background: url(../assests/prevhover.png);
+    position: absolute;
+    top: 1px;
+    /* right: 4px; */
+    display: block;
+    width: 52px;
+    background-repeat: no-repeat;
+    height: 51px;
+    transition: 0.5s;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: none !important;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    content: none !important;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #f1f1f1;
+    padding: 32px 0px;
+}
+footer table td {
+    width: 300px;
+    color: #5c5c5c;
+}
+footer table td a {
+    color: #5c5c5c;
+}
+footer table td a:hover {
+    color: #191919;
+}
+.col-md-3.phone {
+    background: aliceblue;
+}
+.col-md-3.mail {
+    background: #e2e2e2;
+}
+.col-md-3.phone, .mail {
+    display: inline-grid;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.col-md-3.phone img, .mail img {
+    border: 2.5px solid gray;
+    border-radius: 34px;
+    padding: 7px;
+    margin-top: 50px;
+}
+.col-md-3.phone h3, .mail h3 {
+    font-size: 32px;
+}
+.phone p span,.mail p span {
+    color: gray;
+}
 /*.artist1{
     background-image: url(../assests/artist1.jpeg);
     background-position: center;
