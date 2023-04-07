@@ -199,7 +199,7 @@ table.table tr td {
     border: 7px double #2c16b7;
     display: inline-grid;
     align-items: end;
-    width: 32.2%;
+    width:32%;
     margin-left: 13px;
 }
 
@@ -326,20 +326,80 @@ footer table td a:hover {
 .phone p span,.mail p span {
     color: gray;
 }
-/*.artist1{
-    background-image: url(../assests/artist1.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
+.subscribe {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 63px 0px;
+    padding: 32px 0px;
+    align-items: center;
 }
-.artist2{
-    background-image: url(../assests/artist2.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    }
-*/
+.subscribe p {
+    font-size: 40px;
+}
+
+input.inpuText {
+    color: gray;
+    height: 60px;
+    width: 650px;
+    padding-left: 16px;
+}
+
+.row{
+    margin-right: 0;
+}
+
+.subscribe input[type="button"] {
+    height: 59.5px;
+    padding: 0px 22px;
+    text-transform: uppercase;
+    margin-left: -6px;
+    background: #b6b6b6;
+    border: none;
+    color: #ffffff;
+}
+.form {
+    margin: 100px auto;
+    width: 80%;
+}
+
+.form input {
+    width: 47%;
+    margin-right: 29px;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 50px;
+    margin-bottom: 40px;
+    font-size: 19px;
+}
+.form input:focus,input.inpuText:focus {
+    outline: none;
+}
+.form label {
+    font-size: 21px;
+    color: #757575;
+}
+.form textarea {
+    width: 97%;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 19px;
+}
+.form img {
+    margin-right: 12px;
+}
+.form input[type="submit"] {
+    width: 30%;
+    height: 77px;
+    color: #ededed;
+    margin-top: 45px;
+    background: #585eb2;
+    text-transform: uppercase;
+}
+.form input[type="submit"]:hover {
+    background: #8186e1;
+    transition: 0.5s;
+}
 
 

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="./statics/bootstrap.min.css">
     <link rel="stylesheet" href="./statics/style.css">
-    <title>Contact</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <div class="top contact">
@@ -49,9 +49,7 @@
             </nav>
            
             <div class="mainWRT">
-                <h1>CONTACT US</h1>
-                <p>Art is a creative activity and technical skill. It produces a product, an object. Art is a diverse range of human activities in creating visual, performing subjects, and expressing the author's thoughts. </p>
-
+                <h1 style="padding: 70px 0px;">CONTACT US</h1>
             </div>
     
         </div>
@@ -94,11 +92,57 @@
         </div>
        </div>
 
-       <div>
-        <p>Subscribe to Our Newsletter! </p>
-        <input value="Type Your E-mail" type="text">
-        <input type="button" value="Send">
+       <div class="subscribe">
+        <p>Subscribe to Our <br> Newsletter! </p>
+        <div>
+            <input class="inpuText" placeholder="Type Your E-mail" type="text">
+            <input type="button" value="Send">
+        </div>
+       
        </div>
+
+
+       <div class="form">
+        <form action="">
+
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="number" name="number" id="number" placeholder="Number" required>
+            <input type="text" name="subject" id="subject" placeholder="Subject">
+            <img src="./assests/message.png" alt="">
+            <label for="textarea" >How can I help you?</label> <br>
+            <textarea name="textarea" id="" cols="30" rows="1"></textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+       </div>
+
+       <div>
+        <footer>
+            <h1>Famous</h1>
+            <table>
+                <tr>
+                    <td>Illustration Design</td>
+                    <td>Original Artworks</td>
+                    <td><a href="index.html">Home</a></td>
+                </tr>
+                <tr>
+                    <td>Digital Art</td>
+                    <td>artists association</td>
+                    <td><a href="art.html">Arts</a></td>
+                </tr>
+                <tr>
+                    <td>Fashion Design</td>
+                    <td>Artmajeur Magazine</td>
+                    <td><a href="about.html">About Us</a> </td>
+                </tr>
+                <tr>
+                    <td>Web Design</td>
+                    <td>Recently viewed artworks</td>
+                    <td><a href="contact.html">Contact</a> </td>
+                </tr>
+            </table>
+        </footer>
+    </div>
     <script src="./scripts/popper.min.js"></script>
     <script src="./scripts/bootstrap.bundle.min.js"></script>
 </body>
