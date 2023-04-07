@@ -28,7 +28,10 @@ img.logoImg {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.mainWRT button a {
+    color: white;
+    text-decoration: none;
+}
 .bg-color {
     height: max-content;
     background-color: #00000080;
@@ -350,7 +353,7 @@ input.inpuText {
     margin-right: 0;
 }
 
-.subscribe input[type="button"] {
+.subscribe button {
     height: 59.5px;
     padding: 0px 22px;
     text-transform: uppercase;
@@ -365,15 +368,15 @@ input.inpuText {
 }
 
 .form input {
-    width: 47%;
-    margin-right: 29px;
+    width: 45%;
+    margin: 15px 15px;
     border: none;
     border-bottom: 1px solid gray;
     height: 50px;
     margin-bottom: 40px;
     font-size: 19px;
 }
-.form input:focus,input.inpuText:focus {
+.form input:focus,input.inpuText:focus,.form textarea:focus {
     outline: none;
 }
 .form label {
@@ -385,19 +388,24 @@ input.inpuText {
     border: none;
     border-bottom: 1px solid gray;
     margin-top: 19px;
+    height: 32px;
+    padding-left: 11px;
+
 }
 .form img {
     margin-right: 12px;
 }
-.form input[type="submit"] {
+.form button {
     width: 30%;
     height: 77px;
     color: #ededed;
     margin-top: 45px;
     background: #585eb2;
     text-transform: uppercase;
+    border: none;
+
 }
-.form input[type="submit"]:hover {
+.form button:hover {
     background: #8186e1;
     transition: 0.5s;
 }

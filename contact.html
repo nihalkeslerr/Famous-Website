@@ -16,7 +16,7 @@
 
             <nav class="navbar navbar-expand-md contain">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <img class="logoImg" src="./assests/logo.png" alt="0">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -41,7 +41,7 @@
                         </ul>
                         <aside>
                             <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff;"></i></a> &emsp;&emsp;
-                          <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i>&emsp;&emsp;</a> 
+                          <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i></a> &emsp;&emsp;
                            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a> 
                         </aside>
                     </div>
@@ -95,25 +95,23 @@
        <div class="subscribe">
         <p>Subscribe to Our <br> Newsletter! </p>
         <div>
-            <input class="inpuText" placeholder="Type Your E-mail" type="text">
-            <input type="button" value="Send">
+            <input class="inpuText" name="email" id="Submail" placeholder="Type Your E-mail" type="email">
+            <button type="button" value="Send" onclick=subscribe() >SEND</button>
         </div>
        
        </div>
 
 
        <div class="form">
-        <form action="">
-
-            <input type="text" name="name" id="name" placeholder="Name" required>
-            <input type="email" name="email" id="email" placeholder="Email" required>
-            <input type="number" name="number" id="number" placeholder="Number" required>
-            <input type="text" name="subject" id="subject" placeholder="Subject"><br>
+            <input type="text" name="name" id="name" placeholder="Name" ><label id="adsN"></label>
+            <input type="email" name="email" id="email" placeholder="Email" ><label id="adsE"></label>
+            <input type="tel" min="1000000000" max="9999999999"  name="number" id="number" placeholder="(123)-456-78-90" onKeyPress="if(this.value.length==10) return false;" ><label id="adsNum"></label>
+            <input type="text" name="subject" id="subject" placeholder="Subject"><label id="adsS"></label><br>
             <img src="./assests/message.png" alt="">
             <label for="textarea" >How can I help you?</label> <br>
-            <textarea name="textarea" id="" cols="30" rows="1"></textarea><br>
-            <input type="submit" value="Send Message">
-        </form>
+            <textarea name="textarea" id="textarea" cols="30" rows="1"></textarea><label id="adsT"></label><br>
+            <button onclick="sendForm()" value="Send Message">SEND MESSAGE</button> <br>
+            <label for="success" id="success"></label>
        </div>
 
        <div>
@@ -143,6 +141,7 @@
             </table>
         </footer>
     </div>
+    <script src="./scripts/script.js"></script>
     <script src="./scripts/popper.min.js"></script>
     <script src="./scripts/bootstrap.bundle.min.js"></script>
 </body>
