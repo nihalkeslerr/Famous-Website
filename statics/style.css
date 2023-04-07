@@ -155,7 +155,7 @@ img.logoImg {
 }
 
 .divtable {
-    margin: 0 auto;
+    margin: 90px auto;
     width: 96%;
 }
 table.table {
@@ -346,7 +346,7 @@ input.inpuText {
     padding-left: 16px;
 }
 
-.row{
+.row.contactfirst {
     margin-right: 0;
 }
 
@@ -470,6 +470,23 @@ border-radius: 13px !important;
 }
 button.accordion-button.bg-black{
     color: white;
+}
+.top.allArts{
+    background-image: url(../assests/sergi.webp) ;
+    background-position: center;
+}
+.artAll label {
+    color: gray;
+    font-size: 15px;
+    margin: 17px 0px;
+}
+.artAll label span {
+    color: black;
+    font-size: 21px;
+}
+.arts button a {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
 }
 
 
