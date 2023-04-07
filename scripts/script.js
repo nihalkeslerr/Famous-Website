@@ -49,7 +49,11 @@ function sendForm(){
     else{
       success.innerHTML="Mesajınız Başarıyla Gönderilmiştir."
       success.style.color="green"
-
+        name.value=""
+        email.value=""
+        number.value=""
+        subject.value=""
+        text.value=""
 
 
 
@@ -65,5 +69,7 @@ function subscribe(){
     }
     else{
         alert("Aboneliğiniz başarıyla alınmıştır.")
+       
+
     }
 }
